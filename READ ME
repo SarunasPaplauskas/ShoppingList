@@ -1,0 +1,20 @@
+Projekte naudojamas:
+Spring MVC
+Maven
+Hibernate prisijungimas prie duomeų bazės (DB)
+Spring Security
+Vartotojų slaptažodžiai užkoduojami BCrypt kodavimo metodu
+Hiberate validator
+Entity klasės generuotos iš MySQL DB per JPA
+Priskiriamos skirtingos rolės (Administratorius, Vartotojas), pagal kuriais matomos skirtingos parinktys
+Atvaizdavimui naudojamas Bootstrap
+
+
+Vartotojų prisijungimas, vartotojo vardas - vardas iš duomenų bazės, slaptažodis - vartotojo vardas iš mažosios raidės. Pvz:
+Vartotojo vardas - Jonas, slaptažodis - jonas (Administratorius);
+Vartotojo vardas - Petras, slaptažodis - petras (Vartotojas);
+Vartotojo vardas - Agne, slaptažodis - agne (Vartotojas);
+Vartotojo vardas - Egle, slaptažodis - egle (Vartotojas);
+Kiti vartotojai neturi priskirtos rolės, todėl negali patekti į puslapį. Priskirti roles esamiems vartotojams galima ir administratoriaus pusės.
+
+
